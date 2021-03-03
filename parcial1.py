@@ -90,8 +90,39 @@ else:
     v_pagar4 = v_colchones * n_colchones
     
     print(f'el valor total a pagar es: ${v_pagar4: ,}')
+    
+
+# Una universidad desea seleccionar una muestra de estudiantes para
+# realizar una encuesta. Si el número de estudiantes es menor que 20 se
+# tomará el 50%, si el salón tiene entre 20 y 30 estudiantes se tomará 60%,
+# si la cantidad es mayor a 30 tomará 70%. ¿Que cantidad de estudiantes
+# serán seleccionados para la encuesta?.    
+    
+    
+
+
+n_estudiantes = int(input('diga el numero de estudiantes: '))
+
+if (n_estudiantes < 20):
+    
+    enc_1 = int(n_estudiantes * 0.5)
+    
+    print(f'el numero de estudiantes a usar en la encuesta es: {enc_1}')
+
+elif (n_estudiantes >= 20 and n_estudiantes <30):
+    
+    enc_2 = int(n_estudiantes * 0.6)
+    
+    print(f'el numero de estudiantes a usar en la encuesta es: {enc_2}')
+
+
+else:
+    enc_3 = int(n_estudiantes * 0.7)
+    
+    print(f'el numero de estudiantes a usar en la encuesta es: {enc_3}')
      
-     
+
+
 
 
 
